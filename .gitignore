@@ -1,0 +1,30 @@
+# Entornos virtuales Python
+venv/
+.venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Base de datos local (datos privados de operaciones)
+*.db
+*.sqlite
+
+# Secretos / API keys
+.env
+.env.local
+.streamlit/secrets.toml
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+*.swp
